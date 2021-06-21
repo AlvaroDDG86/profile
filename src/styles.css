@@ -1,0 +1,29 @@
+button.btn {
+  border: none;
+
+}
+
+button.fixed {
+  position: fixed;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.tl {
+  top: -75px;
+  left: -75px;
+}
+.tr {
+  top: -75px;
+  right: -75px;
+}
+.bl {
+  bottom: -75px;
+  left: -75px;
+}
+.br {
+  bottom: -75px;
+  right: -75px;
+}

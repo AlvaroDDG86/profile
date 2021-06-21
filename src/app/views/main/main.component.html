@@ -1,0 +1,23 @@
+<button class="btn animate__animated animate__rotateInDownLeft fixed tl"
+  routerLink="/portfolio">Portfolio</button>
+<button class="btn animate__animated animate__rotateInDownRight fixed tr"
+  routerLink="/experience">Experience</button>
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title green animate__flipInX">
+        Álvaro de Dios García
+      </h1>
+      <div class="typed-element animate__zoomInDown" #typed>
+        <ngx-typed-js *ngIf="typedString.length > 0" [strings]="typedString" [shuffle]="true" [typeSpeed]="40"
+          (completed)="onComplete()" [color]="'#ffff00'">
+          c:\Users\guest> <span class="typing"></span>
+        </ngx-typed-js>
+      </div>
+    </div>
+  </div>
+</section>
+<button class="btn animate__animated animate__rotateInUpLeft fixed bl"
+  routerLink="/education">Education</button>
+<button class="btn animate__animated animate__rotateInUpRight fixed br"
+  routerLink="/contact">Contact</button>
